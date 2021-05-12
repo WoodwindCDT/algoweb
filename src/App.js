@@ -9,7 +9,7 @@ import Home from './pages/Home'
 function App() {
   return (
     <ParallaxProvider>
-      <Router basename="/algoweb">
+      <Router basename={window.location.pathname || ''}>
           <Switch>
             <Route exact path='/' component={Home} />
             <Route exact path='/about' component={About} />
