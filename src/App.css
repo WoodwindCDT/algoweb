@@ -5,7 +5,7 @@
 
 html,
 body {
-  min-height: 100%;
+  min-height: 120%;
 }
 
 body {
@@ -42,6 +42,7 @@ header h2:hover, .bt:hover, header h1:hover, .a-link a:hover {
 
 .h-container {
   margin: 3% 10%;
+  z-index: 9999;
   border-radius: 5px;
   border-width: 1px;
   box-shadow: 0 1px 2px rgba(0,0,0,0.07), 0 2px 4px rgba(0,0,0,0.07), 0 4px 8px rgba(0,0,0,0.07), 
@@ -79,6 +80,7 @@ header h2:hover, .bt:hover, header h1:hover, .a-link a:hover {
   color: hsl(200, 5%, 13%);
   -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
   transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  z-index: 9999;
 }
 
 .t-container, .t-container1:hover {
@@ -156,4 +158,15 @@ header h2:hover, .bt:hover, header h1:hover, .a-link a:hover {
 
 .oo {
   color: red;
+}
+
+/* SVG */
+.svg0 {
+  position: absolute;
+  overflow: visible;
+}
+
+.svgC {
+  position: relative;
+  z-index: -1;
 }

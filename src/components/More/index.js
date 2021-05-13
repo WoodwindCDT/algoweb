@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Parallax, ParallaxProvider } from 'react-scroll-parallax';
 import { pics } from '../JSON/ex'
 
@@ -18,9 +18,42 @@ import { pics } from '../JSON/ex'
 
 function More() {
     return (
-        <div id="more" className="t-container">
+        <div id="more" className="t-container h">
         <h1 className="t-head">More Help and Guides!</h1>
             <p>Images of examples coming soon!</p>
+            <p>LoremLoremLoremLoremLoremLoremLorem
+            LoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLorem
+            LoremLoremLoremLoremLoremLoremLoremLoremLorem
+            LoremLoremLoremLoremLoremLoremLoremLoremLoremLorem
+            LoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLorem
+            LoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLorem
+            LoremLoremLoremLoremLoremLoremLoremLoremLorem
+            LoremLoremLoremLoremLoremLoremLorem
+            LoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLorem
+            LoremLoremLoremLoremLoremLoremLoremLoremLorem
+            LoremLoremLoremLoremLoremLoremLoremLoremLoremLorem
+            LoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLorem
+            LoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLorem
+            LoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLorem
+            LoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLorem
+            LoremLoremLoremLoremLoremLoremLoremLoremLorem
+            LoremLoremLoremLoremLoremLoremLoremLoremLoremLorem
+            LoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLorem
+            LoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLorem
+            LoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLorem
+            LoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLorem
+            LoremLoremLoremLoremLoremLoremLoremLoremLorem
+            LoremLoremLoremLoremLoremLoremLoremLoremLoremLorem
+            LoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLorem
+            LoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLorem
+            LoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLorem
+            LoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLorem
+            LoremLoremLoremLoremLoremLoremLoremLoremLorem
+            LoremLoremLoremLoremLoremLoremLoremLoremLoremLorem
+            LoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLorem
+            LoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLorem
+            LoremLoremLoremLoremLoremLoremLoremLoremLorem
+            </p>
             {/* {pics.map(I)} */}
         </div>
     );

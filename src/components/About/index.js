@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Parallax, ParallaxProvider } from 'react-scroll-parallax';
 import Nav2 from '../Nav2'
 import Resources from '../Resources'

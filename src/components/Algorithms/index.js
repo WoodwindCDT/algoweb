@@ -1,10 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Parallax, ParallaxProvider } from 'react-scroll-parallax';
 import { algorithms } from "../JSON/alg";
 
 const C = (h, i) => {
     return(
-        <Parallax y={[20, -30]}>
         <div key={(i)}>
             <div className="t-container1">
                 <div className="t-text">
@@ -18,7 +17,6 @@ const C = (h, i) => {
                 </div>
             </div>
         </div>
-        </Parallax>
     );
 };
 
