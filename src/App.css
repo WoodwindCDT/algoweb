@@ -129,6 +129,12 @@ header h2:hover, .bt:hover, header h1:hover, .a-link a:hover {
   font-weight: 600;
 }
 
+.a-text {
+  padding: 2%;
+  width: 75%;
+  margin: auto;
+}
+
 .a-link {
   display: flex;
   flex-wrap: wrap;
