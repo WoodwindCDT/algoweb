@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
->> Deployed Application https://woodwindcdt.github.io/algoweb/
+> Deployed Application https://woodwindcdt.github.io/algoweb/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
