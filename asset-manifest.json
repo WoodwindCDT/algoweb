@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/algoweb/static/css/main.2ac1b66b.chunk.css",
-    "main.js": "/algoweb/static/js/main.491480d0.chunk.js",
-    "main.js.map": "/algoweb/static/js/main.491480d0.chunk.js.map",
+    "main.css": "/algoweb/static/css/main.9bb8ad2e.chunk.css",
+    "main.js": "/algoweb/static/js/main.5f63dc99.chunk.js",
+    "main.js.map": "/algoweb/static/js/main.5f63dc99.chunk.js.map",
     "runtime-main.js": "/algoweb/static/js/runtime-main.b4089aaf.js",
     "runtime-main.js.map": "/algoweb/static/js/runtime-main.b4089aaf.js.map",
     "static/js/2.2175c476.chunk.js": "/algoweb/static/js/2.2175c476.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.48d341ce.chunk.js": "/algoweb/static/js/3.48d341ce.chunk.js",
     "static/js/3.48d341ce.chunk.js.map": "/algoweb/static/js/3.48d341ce.chunk.js.map",
     "index.html": "/algoweb/index.html",
-    "static/css/main.2ac1b66b.chunk.css.map": "/algoweb/static/css/main.2ac1b66b.chunk.css.map",
+    "static/css/main.9bb8ad2e.chunk.css.map": "/algoweb/static/css/main.9bb8ad2e.chunk.css.map",
     "static/js/2.2175c476.chunk.js.LICENSE.txt": "/algoweb/static/js/2.2175c476.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b4089aaf.js",
     "static/js/2.2175c476.chunk.js",
-    "static/css/main.2ac1b66b.chunk.css",
-    "static/js/main.491480d0.chunk.js"
+    "static/css/main.9bb8ad2e.chunk.css",
+    "static/js/main.5f63dc99.chunk.js"
   ]
 }
