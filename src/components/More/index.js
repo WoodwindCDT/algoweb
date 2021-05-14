@@ -20,40 +20,14 @@ function More() {
     return (
         <div id="more" className="t-container h">
         <h1 className="t-head">More Help and Guides!</h1>
-            <p>Images of examples coming soon!</p>
-            <p>LoremLoremLoremLoremLoremLoremLorem
-            LoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLorem
-            LoremLoremLoremLoremLoremLoremLoremLoremLorem
-            LoremLoremLoremLoremLoremLoremLoremLoremLoremLorem
-            LoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLorem
-            LoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLorem
-            LoremLoremLoremLoremLoremLoremLoremLoremLorem
-            LoremLoremLoremLoremLoremLoremLorem
-            LoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLorem
-            LoremLoremLoremLoremLoremLoremLoremLoremLorem
-            LoremLoremLoremLoremLoremLoremLoremLoremLoremLorem
-            LoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLorem
-            LoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLorem
-            LoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLorem
-            LoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLorem
-            LoremLoremLoremLoremLoremLoremLoremLoremLorem
-            LoremLoremLoremLoremLoremLoremLoremLoremLoremLorem
-            LoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLorem
-            LoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLorem
-            LoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLorem
-            LoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLorem
-            LoremLoremLoremLoremLoremLoremLoremLoremLorem
-            LoremLoremLoremLoremLoremLoremLoremLoremLoremLorem
-            LoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLorem
-            LoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLorem
-            LoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLorem
-            LoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLorem
-            LoremLoremLoremLoremLoremLoremLoremLoremLorem
-            LoremLoremLoremLoremLoremLoremLoremLoremLoremLorem
-            LoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLorem
-            LoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLorem
-            LoremLoremLoremLoremLoremLoremLoremLoremLorem
-            </p>
+            <h2 className="t-text">
+            Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem
+            Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem 
+            Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem
+            Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem
+            Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem
+            Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem   
+            </h2>
             {/* {pics.map(I)} */}
         </div>
     );

@@ -56,9 +56,7 @@ export const algorithms = [
         "Q": "Write a function to print the odd numbers from 1 to N.",
         "A": `console.log(
             Array.apply(null, {length: 15}).map(function(val, i) {
-                i++;
-                if (i % 2 == 0 ){return null;}
-                return i;
+                return i * 2 + 1;
             }));`
     },
     {
