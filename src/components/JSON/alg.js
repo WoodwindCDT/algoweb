@@ -90,5 +90,21 @@ export const algorithms = [
                }
             }
         }`
+    },
+    {   
+        "T": "java",
+        "Q": "Create a chessboard with \" \" (a space) for even and \"$\" for odd integers",
+        "A": `class Main{
+            public static void main(String[] args) {
+               String b;
+               b = "";
+               for (int a = 0; a < 8; a++) {
+                  for ( int c = 0; c < 8; c++) {
+                     b += ((c + a) % 2 == 0) ? " " : "$";}
+                     b +="\n";
+               }
+               System.out.println(b);
+            }
+        }`
     }
 ];
