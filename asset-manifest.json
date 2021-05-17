@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/algoweb/static/css/main.9bb8ad2e.chunk.css",
-    "main.js": "/algoweb/static/js/main.52970f00.chunk.js",
-    "main.js.map": "/algoweb/static/js/main.52970f00.chunk.js.map",
+    "main.js": "/algoweb/static/js/main.c9b0698a.chunk.js",
+    "main.js.map": "/algoweb/static/js/main.c9b0698a.chunk.js.map",
     "runtime-main.js": "/algoweb/static/js/runtime-main.b4089aaf.js",
     "runtime-main.js.map": "/algoweb/static/js/runtime-main.b4089aaf.js.map",
     "static/js/2.2175c476.chunk.js": "/algoweb/static/js/2.2175c476.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.b4089aaf.js",
     "static/js/2.2175c476.chunk.js",
     "static/css/main.9bb8ad2e.chunk.css",
-    "static/js/main.52970f00.chunk.js"
+    "static/js/main.c9b0698a.chunk.js"
   ]
 }
