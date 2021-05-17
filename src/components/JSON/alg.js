@@ -106,5 +106,22 @@ export const algorithms = [
                System.out.println(b);
             }
         }`
+    },
+    {   
+        "T": "java",
+        "Q": "Reverse a String",
+        "A": `class Main {
+            public static void main(String[] args) {
+               String a;
+               String b;
+               a = "Howdy!";
+               b = "";
+               for (int i = a.length() - 1; i >= 0; i--){
+                  b += a.charAt(i);
+               }
+               System.out.println("This is the original String " + a);
+               System.out.println("This is the backwards String " + b);
+            }   
+        }`
     }
 ];
