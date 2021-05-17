@@ -96,8 +96,7 @@ export const algorithms = [
         "Q": "Create a chessboard with \" \" (a space) for even and \"$\" for odd integers",
         "A": `class Main{
             public static void main(String[] args) {
-               String b;
-               b = "";
+               String b = "";
                for (int a = 0; a < 8; a++) {
                   for ( int c = 0; c < 8; c++) {
                      b += ((c + a) % 2 == 0) ? " " : "$";}
@@ -112,10 +111,8 @@ export const algorithms = [
         "Q": "Reverse a String",
         "A": `class Main {
             public static void main(String[] args) {
-               String a;
-               String b;
-               a = "Howdy!";
-               b = "";
+               String a = "This is a sample string!";
+               String b = "";
                for (int i = a.length() - 1; i >= 0; i--){
                   b += a.charAt(i);
                }
