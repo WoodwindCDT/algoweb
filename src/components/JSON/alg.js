@@ -74,51 +74,51 @@ export const algorithms = [
             console.log('Largest int = ' + Math.max.apply(Math, arr), arr) }
             scan();` 
     },
-    {   
-        "T": "java",
-        "Q": "Write a function that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.",
-        "A": `class Main {
-            public static void main(String[] args) {
-               for (int i = 1; i < 101; i++) {
-                    if ((i % 15) == 0 )
-                    System.out.println("FizzBuzz");
-                    if((i % 3) == 0)
-                    System.out.println("Fizz");
-                    if((i % 5) == 0)
-                    System.out.println("Buzz");
-                    else System.out.println(i);
-               }
-            }
-        }`
-    },
-    {   
-        "T": "java",
-        "Q": "Create a chessboard with \" \" (a space) for even and \"$\" for odd integers",
-        "A": `class Main{
-            public static void main(String[] args) {
-               String b = "";
-               for (int a = 0; a < 8; a++) {
-                  for ( int c = 0; c < 8; c++) {
-                     b += ((c + a) % 2 == 0) ? " " : "$";}
-                     b +="\n";
-               }
-               System.out.println(b);
-            }
-        }`
-    },
-    {   
-        "T": "java",
-        "Q": "Reverse a String",
-        "A": `class Main {
-            public static void main(String[] args) {
-               String a = "This is a sample string!";
-               String b = "";
-               for (int i = a.length() - 1; i >= 0; i--){
-                  b += a.charAt(i);
-               }
-               System.out.println("This is the original String " + a);
-               System.out.println("This is the backwards String " + b);
-            }   
-        }`
-    }
+    // {   
+    //     "T": "java",
+    //     "Q": "Write a function that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.",
+    //     "A": `class Main {
+    //         public static void main(String[] args) {
+    //            for (int i = 1; i < 101; i++) {
+    //                 if ((i % 15) == 0 )
+    //                 System.out.println("FizzBuzz");
+    //                 if((i % 3) == 0)
+    //                 System.out.println("Fizz");
+    //                 if((i % 5) == 0)
+    //                 System.out.println("Buzz");
+    //                 else System.out.println(i);
+    //            }
+    //         }
+    //     }`
+    // },
+    // {   
+    //     "T": "java",
+    //     "Q": "Create a chessboard with \" \" (a space) for even and \"$\" for odd integers",
+    //     "A": `class Main{
+    //         public static void main(String[] args) {
+    //            String b = "";
+    //            for (int a = 0; a < 8; a++) {
+    //               for ( int c = 0; c < 8; c++) {
+    //                  b += ((c + a) % 2 == 0) ? " " : "$";}
+    //                  b +="\n";
+    //            }
+    //            System.out.println(b);
+    //         }
+    //     }`
+    // },
+    // {   
+    //     "T": "java",
+    //     "Q": "Reverse a String",
+    //     "A": `class Main {
+    //         public static void main(String[] args) {
+    //            String a = "This is a sample string!";
+    //            String b = "";
+    //            for (int i = a.length() - 1; i >= 0; i--){
+    //               b += a.charAt(i);
+    //            }
+    //            System.out.println("This is the original String " + a);
+    //            System.out.println("This is the backwards String " + b);
+    //         }   
+    //     }`
+    // }
 ];
