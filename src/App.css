@@ -71,7 +71,7 @@ header h2:hover, .bt:hover, header h1:hover, .a-link a:hover {
 }
 
 .t-container {
-  margin: 4% 7%;
+  margin: 4% 6%;
   padding: 2%;
   border-radius: 5px;
   border-width: 1px;
@@ -92,7 +92,7 @@ header h2:hover, .bt:hover, header h1:hover, .a-link a:hover {
 }
 
 .t-container1 {
-  margin: 4% 7%;
+  margin: 4% 6%;
   padding: 2%;
   border-radius: 5px;
   border-width: 1px;
@@ -133,6 +133,7 @@ header h2:hover, .bt:hover, header h1:hover, .a-link a:hover {
 
 .a-text {
   padding: 3%;
+  white-space: pre-wrap;
   width: 80%;
   margin: auto;
 }
