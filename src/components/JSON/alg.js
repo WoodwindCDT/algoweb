@@ -120,5 +120,67 @@ export const algorithms = [
     //            System.out.println("This is the backwards String " + b);
     //         }   
     //     }`
+    // },
+    // {   
+    //     "T": "java",
+    //     "Q": "Print JAVA line by line as a symbol",
+    //     "A": `public class Main {
+    //         public static void main(String[] args) {
+    //            // String var s as empty space
+    //            String s = " ";
+    //            // First Line
+    //            System.out.println(String.format("%0" + 6 + "d", 0).replace("0", s) + "J" +
+    //            String.format("%0" + 7 + "d", 0).replace("0", s) + "A" +
+    //            String.format("%0" + 7 + "d", 0).replace("0", s) + "V" +
+    //            String.format("%0" + 7 + "d", 0).replace("0", s) + "V" +
+    //            String.format("%0" + 7 + "d", 0).replace("0", s) + "A");
+    //            // Second Line
+    //            System.out.println(String.format("%0" + 6 + "d", 0).replace("0", s) + "J" +
+    //            String.format("%0" + 6 + "d", 0).replace("0", s) + "A " + "A" +
+    //            String.format("%0" + 7 + "d", 0).replace("0", s) + "V     " + "V" +
+    //            String.format("%0" + 7 + "d", 0).replace("0", s) + "A " + "A");
+    //            // Third Line
+    //            System.out.println(String.format("%0" + 1 + "d", 0).replace("0", s)+ "J    " + "J" +
+    //            String.format("%0" + 5 + "d", 0).replace("0", s) + "AAAAA" +
+    //            String.format("%0" + 7 + "d", 0).replace("0", s) + "V   " + "V" +
+    //            String.format("%0" + 7 + "d", 0).replace("0", s) + "AAAAA");
+    //            // Fourth Line
+    //            System.out.print(String.format("%0" + 2 + "d", 0).replace("0", s) + "J  " + "J" +
+    //            String.format("%0" + 5 + "d", 0).replace("0", s) + "A     " + "A" +
+    //            String.format("%0" + 8 + "d", 0).replace("0", s) + "V" +
+    //            String.format("%0" + 8 + "d", 0).replace("0", s) + "A     " + "A");
+    //         }
+    //     }`
+    // },
+    // {
+    //     "T": "java",
+    //     "Q": "Write a program to calculate population growth after 5 years",
+    //     "A": `public class Main {
+    //         public static void main(String[] args) {
+    //            // Data type double for total population (double for division) 
+    //            double t = 312032486;
+    //            // Data type integer for s = Seconds in a day = 86,400
+    //            int s = 86400;
+    //            // Data type integer for a = Average
+    //            double a = 0;
+    //            // Created data type double for s = Seconds divided by births = b, deaths = d, and immigrants = m
+    //            double b = s/7;
+    //            double d = s/13;
+    //            double m = s/45;
+               
+    //            // For loop to iterate t plus and equal to b + m minus total deaths * 365 until i <= 5
+    //            for (int i = 1; i <= 5; i++) {
+    //              t += (((b+m) - d) * 365);
+    //              a += ((((b+m) - d) * 365) / 5);
+    //              System.out.println("Population after year " + i + " = " + Math.round(t));
+    //            }
+               
+    //            System.out.print("----------------------------------------- \n");
+    //            System.out.print("Original Population = 312032486 \n" +
+    //            "After 5 years the population = " + Math.round(t) + "\n" +
+    //            "Difference after 5 years = " +  (Math.round(t) - 312032486)  + "\n");
+    //            System.out.print("Average difference each year = " + Math.round(a));
+    //         }
+    //      }`
     // }
 ];
