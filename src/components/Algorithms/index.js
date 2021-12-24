@@ -38,7 +38,8 @@ class AlgorithmDisplay extends React.Component {
     );
     return (
         <>
-            <div className="box">    
+            <div className="box">
+                <h4>Preferred Language</h4>
                 <select className="boxc" value={this.state.value} onChange={this.handleDisplayClick}>
                     {lang.map((types) => <option>{types}</option>)}
                 </select>
