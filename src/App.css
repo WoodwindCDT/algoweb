@@ -161,6 +161,24 @@ header h2:hover, .bt:hover, header h1:hover, .a-link a:hover {
   color: red;
 }
 
+.box {
+  margin: auto;
+  width: 50%;
+  padding: 5%;
+  border-radius: 7px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.07), 0 4px 4px rgba(0,0,0,0.07), 0 6px 10px rgba(0,0,0,0.07), 
+  0 8px 16px rgba(0,0,0,0.07),0 16px 32px rgba(0,0,0,0.07), 0 32px 64px rgba(0,0,0,0.07);
+}
+
+.boxc {
+  text-align: center;
+  font-size: calc(16px + 1vw);
+  margin: auto;
+  width: 100%;
+  border-radius: 7px;
+  padding: 5%;
+}
+
 /* SVG */
 .svg0 {
   position: absolute;

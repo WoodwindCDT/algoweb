@@ -1,6 +1,6 @@
 import React from "react";
 import Nav1 from "../components/Nav1"
-import Algorithms from "../components/Algorithms"
+import AlgorithmDisplay from "../components/Algorithms"
 import More from "../components/More";
 import Footer from "../components/Footer";
 import Svg from '../components/Svg'
@@ -17,7 +17,7 @@ const Home = () => {
             </div>
           </div>
           <div>
-            <Algorithms />
+            <AlgorithmDisplay />
             <div className="svgC">
               <Svg />
             </div>
