@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
 > Deployed Application https://woodwindcdt.github.io/algoweb/
+> App is primarily a template/playground for [ReactJS](https://reactjs.org/) features.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
